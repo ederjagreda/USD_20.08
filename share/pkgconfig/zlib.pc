@@ -1,0 +1,13 @@
+prefix=D:/DEVELOPMENT/Builder/USD_20.08_compile
+exec_prefix=D:/DEVELOPMENT/Builder/USD_20.08_compile
+libdir=D:/DEVELOPMENT/Builder/USD_20.08_compile/lib
+sharedlibdir=D:/DEVELOPMENT/Builder/USD_20.08_compile/lib
+includedir=D:/DEVELOPMENT/Builder/USD_20.08_compile/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

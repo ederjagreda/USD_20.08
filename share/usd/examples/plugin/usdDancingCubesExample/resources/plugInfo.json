@@ -1,0 +1,36 @@
+{
+    "Plugins": [
+        {
+            "Info": {
+                "SdfMetadata": {
+                    "Usd_DCE_Params": {
+                        "type": "dictionary",
+                        "displayGroup": "Core",
+                        "appliesTo": ["prims"],
+                        "documentation:": "Used to set number of copies."
+                    }
+                },
+
+                "Types": {
+                    "UsdDancingCubesExampleFileFormat": {
+                        "bases": [
+                            "SdfFileFormat"
+                        ],
+                        "displayName": "USD Dancing Cubes Example Format",
+                        "extensions": [
+                            "usddancingcubesexample"
+                        ],
+                        "formatId": "usdDancingCubesExample",
+                        "primary": true,
+                        "target": "usd"
+                    }
+                }
+            },
+            "LibraryPath": "../usdDancingCubesExample.dll",
+            "Name": "usdDancingCubesExample",
+            "ResourcePath": "resources",
+            "Root": "..",
+            "Type": "library"
+        }
+    ]
+}
